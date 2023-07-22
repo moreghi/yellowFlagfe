@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+// app per controllo accesso (auth)
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegistrationComponent } from './components/auth/registration/registration.component';
 import { SignupComponent } from './components/auth/signup/signup.component';
 import { ForgotpasswordComponent } from './components/auth/forgotpassword/forgotpassword.component';
 import { SignupConfermeComponent } from './components/auth/signup-conferme/signup-conferme.component';
 import { ForgotpasswordConfermeComponent } from './components/auth/forgotpassword-conferme/forgotpassword-conferme.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ForgotpasswordConfermeComponent } from './components/auth/forgotpasswor
     SignupComponent,
     ForgotpasswordComponent,
     SignupConfermeComponent,
-    ForgotpasswordConfermeComponent
+    ForgotpasswordConfermeComponent,
+
   ],
   imports: [
     BrowserModule,
